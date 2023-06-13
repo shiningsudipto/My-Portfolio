@@ -6,11 +6,19 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
+import MainLayout from './Layouts/MainLayout';
+import Home from './pages/Home';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <MainLayout />,
+    children: [
+      {
+        path: '/',
+        element: <Home />
+      }
+    ]
   },
 ]);
 
