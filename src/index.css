@@ -34,7 +34,7 @@
     transform: translateY(-5px);
 }
 
-.circle {
+/* .circle {
     position: relative;
     width: 160px;
     height: 160px;
@@ -47,4 +47,141 @@
         10px 10px 30px #c300ff40,
         inset -10px -10px 20px -5px #00ff15,
         inset 10px 10px 10px -5px #004cff
+} */
+
+/* 
+Services Card
+*/
+.card {
+    position: relative;
+    /* width: 350px; */
+    height: 300px;
+    margin: 0 auto;
+    background: #212428;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, .5);
+    border-radius: 15px;
+}
+
+.card .face {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .face.face1 {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.card .face.face1 h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.card .face.face1 .content {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0 0 1em 0;
+    font-weight: 500;
+}
+
+.card .face.face1 .content h2 {
+    font-size: 1.5rem;
+    color: #CA0945;
+}
+
+.card .face.face2 {
+    background: #111;
+    transition: 0.5s;
+}
+
+.card:nth-child(1) .face.face2 {
+    background: linear-gradient(45deg, #212428, #CA0945);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.card:hover .face.face2 {
+    height: 90px;
+    padding: 8px;
+    border-radius: 0 0 15px 15px;
+}
+
+.card .face.face2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 50%; */
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px 0 0 15px;
+}
+
+.card .face.face2 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.card:hover .face.face2 h2 {
+    font-size: 2em;
+}
+
+/* 
+Section Title
+*/
+
+.animated-border {
+    height: 3px;
+    background-color: #CA0945;
+    animation: slide 2s infinite;
+}
+
+@keyframes slide {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+.glowing-circle {
+    /* Adjust the positioning as per your requirements */
+    transform: translate(50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ca0945;
+    box-shadow: 0 0 5px #ca0945, 0 0 10px #f701ff, 0 0 20px #ca0945;
+    animation: glowing 2s infinite;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 5px #ca0945, 0 0 10px #f701ff, 0 0 20px #ca0945;
+    }
+
+    50% {
+        box-shadow: 0 0 20px #ca0945, 0 0 30px #f701ff, 0 0 40px #ca0945, 0 0 50px #ca0945;
+    }
+
+    100% {
+        box-shadow: 0 0 5px #ca0945, 0 0 10px #f701ff, 0 0 20px #ca0945;
+    }
 }

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Full-stack development",
+        "icon": "service1.png",
+        "description": "End-to-end development for web applications."
+    },
+    {
+        "name": "RESTful API development",
+        "icon": "service2.png",
+        "description": "Building robust and scalable APIs."
+    },
+    {
+        "name": "Single-page application (SPA)",
+        "icon": "service3.png",
+        "description": "Creating interactive and efficient SPAs."
+    },
+    {
+        "name": "User authentication and authorization",
+        "icon": "service4.png",
+        "description": "Implementing secure user authentication and authorization mechanisms."
+    },
+    {
+        "name": "Testing and debugging",
+        "icon": "service5.png",
+        "description": "Ensuring high-quality through comprehensive testing and debugging."
+    },
+    {
+        "name": "Continuous integration and deployment (CI/CD)",
+        "icon": "service6.png",
+        "description": "Automating the build, test, and deployment processes."
+    }
+]

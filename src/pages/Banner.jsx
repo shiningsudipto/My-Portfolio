@@ -9,7 +9,7 @@ const Banner = () => {
                     <div className="mt-16">
                         <h3 className="uppercase tracking-widest">welcome to my world.</h3>
                         <img src="" alt="" />
-                        <h2 className="text-7xl font-bold">Hi, I'm <span className="text-myRed">Sudipta Das</span></h2>
+                        <h2 className="text-6xl font-bold">Hi, I'm <span className="text-myRed">Sudipta Das</span></h2>
                         <div className="text-2xl font-bold mt-6">
                             <TypeAnimation
                                 sequence={[
@@ -39,7 +39,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="flex justify-center">
+                        <div className="flex justify-end">
                             <div className="flex flex-col items-center myBtnShadow w-3/4">
                                 <img className="h-[545px] w-[390px]" src="https://rainbowit.net/html/inbio/assets/images/slider/banner-01.png" alt="" />
                             </div>

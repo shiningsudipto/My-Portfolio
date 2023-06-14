@@ -1,9 +1,11 @@
 import Banner from "./Banner";
+import Services from "./Services";
 
 const Home = () => {
     return (
-        <div>
+        <div className="container mx-auto">
             <Banner />
+            <Services />
         </div>
     );
 };
