@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div className="pt-28 text-white">
+        <div className="pt-28">
             <div className="container mx-auto">
                 <div className="grid lg:grid-cols-2 grid-cols-1">
                     <div className="mt-16">
@@ -13,7 +13,7 @@ const Banner = () => {
                         <div className="text-2xl font-bold mt-6">
                             <TypeAnimation
                                 sequence={[
-                                    'a Developer.',
+                                    'a Web Developer.',
                                     1000,
                                     'a Professional Coder.',
                                     1000,

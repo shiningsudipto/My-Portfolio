@@ -7,7 +7,8 @@ const About = () => {
         <div>
             <div>
                 <SectionTitle
-                    heading={"About Me"}
+                    subHeading={"About me and my skill"}
+                    heading={"About"}
                 ></SectionTitle>
             </div>
             <div>

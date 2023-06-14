@@ -1,5 +1,6 @@
 import About from "./About";
 import Banner from "./Banner";
+import Contact from "./Contact";
 import Portfolio from "./Portfolio";
 import Services from "./Services";
 
@@ -10,6 +11,7 @@ const Home = () => {
             <Services />
             <Portfolio />
             <About />
+            <Contact />
         </div>
     );
 };

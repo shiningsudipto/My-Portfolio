@@ -12,6 +12,7 @@
     font-weight: 600;
     text-transform: uppercase;
     color: #CA0945;
+    cursor: pointer;
 }
 
 .iconBtn {
@@ -129,7 +130,7 @@ Services Card
     padding: 0;
     font-size: 2rem;
     font-weight: 600;
-    color: #fff;
+    color: #e2e2e2;
     transition: 0.5s;
     text-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
