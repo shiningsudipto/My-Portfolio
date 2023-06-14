@@ -5,3 +5,46 @@
 .navBtn {
     @apply bg-myRed rounded-sm font-semibold text-base
 }
+
+.myBtn {
+    padding: 10px 15px;
+    background-color: #212428;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #CA0945;
+}
+
+.iconBtn {
+    background-color: #212428;
+    padding: 5px;
+    color: #CA0945;
+    cursor: pointer;
+}
+
+.myBtnShadow {
+    box-shadow: -5px -5px 10px #ffffff25,
+        10px 10px 30px #00000085,
+        inset -10px -10px 20px -5px #00ff1500,
+        inset 10px 10px 10px -5px #004cff00;
+    transition: transform 0.2s ease-in-out;
+}
+
+.myBtn:hover,
+.iconBtn:hover {
+    transform: translateY(-5px);
+}
+
+.circle {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 0 50px;
+}
+
+.circle2 {
+    box-shadow: -10px -10px 30px #ffbb00,
+        10px 10px 30px #c300ff40,
+        inset -10px -10px 20px -5px #00ff15,
+        inset 10px 10px 10px -5px #004cff
+}

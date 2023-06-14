@@ -32,7 +32,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="py-3 px-4 bg-myBlack border-0 shadow-md text-white text-lg hover:text-myRed font-semibold shadow-myRed/80">Send Message</a>
+                    <a className="myBtn myBtnShadow">Send Message</a>
                 </div>
             </div>
         </div>
