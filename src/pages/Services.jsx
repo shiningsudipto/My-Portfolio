@@ -1,12 +1,8 @@
-import { useEffect, useState } from "react";
+import useServices from "../hook/useServices";
 
 const Services = () => {
-    const [data, setData] = useState([]);
-    useEffect(() => {
-        fetch('services.json')
-            .then(res => res.json())
-            .then(data => setData(data))
-    }, [])
+    const [services] = useServices();
+    console.log("Services", services);
     return (
         <div>
             <div>
@@ -24,7 +20,7 @@ const Services = () => {
             <div>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
                     {
-                        data.map((service, index) => <div key={index}>
+                        services.map((service, index) => <div key={index}>
                             <div className="card">
                                 <div className="face face1">
                                     <div className="content">

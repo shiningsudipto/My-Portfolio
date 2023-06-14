@@ -1,13 +1,9 @@
-import { useEffect, useState } from "react";
 import SectionTitle from "../components/SectionTitle";
+import usePortfolio from "../hook/usePortfolio";
 
 const Portfolio = () => {
-    const [data, setData] = useState([]);
-    useEffect(() => {
-        fetch('portfolio.json')
-            .then(res => res.json())
-            .then(data => setData(data))
-    }, [])
+    const [portfolio] = usePortfolio();
+    console.log("Portfolio", portfolio);
     return (
         <div>
             <div>
@@ -19,11 +15,11 @@ const Portfolio = () => {
             <div className="my-8">
                 <div className="grid lg:grid-cols-3 gap-8">
                     {
-                        data.map((portfolio, index) =>
+                        portfolio.map((singlePortfolio, index) =>
                             <div key={index}
                                 className="p-3 rounded-xl myBtnShadow border border-transparent hover:border hover:border-myRed">
                                 <div className="">
-                                    <img src={portfolio.image}
+                                    <img src={singlePortfolio.image}
                                         className="h-80 rounded-xl"
                                         alt="" />
                                 </div>
@@ -33,7 +29,7 @@ const Portfolio = () => {
                                         <p>Live</p>
                                         <p>Server side</p>
                                     </div>
-                                    <h3 className="text-2xl font-bold text-myRed">{portfolio.name}</h3>
+                                    <h3 className="text-2xl font-bold text-myRed">{singlePortfolio.name}</h3>
                                     <button className="">Read More</button>
                                 </div>
                             </div>)
