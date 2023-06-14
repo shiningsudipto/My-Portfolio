@@ -1,0 +1,59 @@
+[
+    {
+        "name": "MEGAPIXEL",
+        "image": "https://www.concretedecor.net/wp-content/uploads/CD/assets/Image/archives/CD1803/Iannone_Finishing_Aids_1803/Apr-2018-Broadcast.jpg",
+        "technologyUsed": [
+            "React JS",
+            "Node JS",
+            "Express JS",
+            "MongoDB",
+            "JWT",
+            "Authentication"
+        ],
+        "tools": [
+            "Visual Studio Code",
+            "Git"
+        ],
+        "packageUsed": "",
+        "description": "It's a online photography school where people can purchase course. Stripe payment method implemented. JWT implemented to secure website. REGEX implemented. Instructor can add course. Student can select class and enroll course throw payment. Admin can mange user and courses and also can give feedback",
+        "serverSide": "https://example.com/server-side-project1",
+        "clientSide": "https://example.com/client-side-project1",
+        "live": "https://megapixel-78f33.web.app/",
+        "slNumber": 1
+    },
+    {
+        "name": "SUPER TOYS",
+        "image": "https://blog.hubspot.com/hs-fs/hubfs/marketer%20using%20the%20best%20portfolio%20websites%20to%20showcase%20an%20impressive%20digital%20portfolio.jpg?width=595&height=400&name=marketer%20using%20the%20best%20portfolio%20websites%20to%20showcase%20an%20impressive%20digital%20portfolio.jpg",
+        "technologyUsed": [
+            "React JS",
+            "Node JS",
+            "Express JS",
+            "MongoDB"
+        ],
+        "tools": [
+            "PyCharm",
+            "GitHub"
+        ],
+        "description": "This is a full-stack website. This website is based on Action Toys like Avengers, DC Comics, and Transformers. Here people will get real information about added toys by clicking the view details button. If the user wants to see details then he/she must be logged in. User can register with email and password and also log in with Google. After logging in user will see 2 more menus Add a Toy and My Toys. User can add toys from Add A Toy page. User can see their added toys from the My Toys page. From the My Toys page user cat update and also can delete his/her added toys.",
+        "serverSide": "https://github.com/shiningsudipto/Super-Toys-Server-PHa11",
+        "clientSide": "https://github.com/shiningsudipto/Super-Toys-Client-PHa11",
+        "live": "https://super-toys-c5844.web.app/",
+        "slNumber": 1
+    },
+    {
+        "name": "DREAM FOOD",
+        "image": "project2.png",
+        "technologyUsed": [
+            "React JS"
+        ],
+        "tools": [
+            "PyCharm",
+            "GitHub"
+        ],
+        "description": "This website based for food recipes of America. Here you will get top best chef of all time in America and their bio. There is 18 popular food recipe of there. This website built with . It's a JavaScript popular library. I added authentication system with firebase. If anyone want to see recipes of chef by clicking 'view recipe' then he/she will see the details of that chef and at least 3 recipe. If a visitor without logged in want to see recipes he/she will redirect to the login page. After log in or if he don't have any account also can create one. People can choose recipe of chef to see their popularity.",
+        "serverSide": "https://github.com/shiningsudipto/Dream-Food-Server-PHa10",
+        "clientSide": "https://github.com/shiningsudipto/Dream-Food-Client-PHa10",
+        "live": "https://dream-food.web.app/",
+        "slNumber": 3
+    }
+]

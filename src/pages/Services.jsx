@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import SectionTitle from "../components/SectionTitle";
 
 const Services = () => {
     const [data, setData] = useState([]);
@@ -11,10 +10,16 @@ const Services = () => {
     return (
         <div>
             <div>
-                <SectionTitle
-                    subHeading={"features"}
-                    heading={"What i do"}
-                ></SectionTitle>
+                <div className="my-10">
+                    <div className='flex items-center'>
+                        <h3 className="text-myRed mb-3 text-xl uppercase">
+                            features
+                        </h3>
+                        <span className="glowing-circle ms-6"></span>
+                    </div>
+                    <h2 className="text-7xl font-bold uppercase">what i do</h2>
+                    <div className="animated-border"></div>
+                </div>
             </div>
             <div>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">

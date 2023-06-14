@@ -32,6 +32,7 @@
 .myBtn:hover,
 .iconBtn:hover {
     transform: translateY(-5px);
+    transition: transform 0.2s ease-in-out;
 }
 
 /* .circle {
@@ -185,3 +186,5 @@ Section Title
         box-shadow: 0 0 5px #ca0945, 0 0 10px #f701ff, 0 0 20px #ca0945;
     }
 }
+
+/* portfolio */
