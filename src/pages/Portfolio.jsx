@@ -21,7 +21,7 @@ const Portfolio = () => {
                     {
                         data.map((portfolio, index) =>
                             <div key={index}
-                                className="p-3 rounded-xl myBtnShadow">
+                                className="p-3 rounded-xl myBtnShadow border border-transparent hover:border hover:border-myRed">
                                 <div className="">
                                     <img src={portfolio.image}
                                         className="h-80 rounded-xl"

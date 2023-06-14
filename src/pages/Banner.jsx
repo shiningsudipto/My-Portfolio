@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div className="pt-28 text-white">
             <div className="container mx-auto">
-                <div className="grid grid-cols-2 ">
+                <div className="grid lg:grid-cols-2 grid-cols-1">
                     <div className="mt-16">
                         <h3 className="uppercase tracking-widest">welcome to my world.</h3>
                         <img src="" alt="" />
@@ -39,7 +39,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="flex justify-end">
+                        <div className="flex lg:justify-end justify-center">
                             <div className="flex flex-col items-center myBtnShadow w-3/4">
                                 <img className="h-[545px] w-[390px]" src="https://rainbowit.net/html/inbio/assets/images/slider/banner-01.png" alt="" />
                             </div>

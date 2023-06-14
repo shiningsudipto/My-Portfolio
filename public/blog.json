@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Project A",
+        "image": "https://example.com/project-a.jpg",
+        "description": "This is the description for Project A.",
+        "date": "2023-06-01"
+    },
+    {
+        "title": "Project B",
+        "image": "https://example.com/project-b.jpg",
+        "description": "This is the description for Project B.",
+        "date": "2023-06-05"
+    },
+    {
+        "title": "Project C",
+        "image": "https://example.com/project-c.jpg",
+        "description": "This is the description for Project C.",
+        "date": "2023-06-10"
+    }
+]
