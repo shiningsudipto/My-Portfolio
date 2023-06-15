@@ -16,8 +16,8 @@
         ],
         "packageUsed": "",
         "description": "It's a online photography school where people can purchase course. Stripe payment method implemented. JWT implemented to secure website. REGEX implemented. Instructor can add course. Student can select class and enroll course throw payment. Admin can mange user and courses and also can give feedback",
-        "serverSide": "https://example.com/server-side-project1",
-        "clientSide": "https://example.com/client-side-project1",
+        "serverSide": "https://github.com/shiningsudipto/Megapixel-Server-Side",
+        "clientSide": "https://github.com/shiningsudipto/Megapixel-Client-Side",
         "live": "https://megapixel-78f33.web.app/",
         "slNumber": 1
     },

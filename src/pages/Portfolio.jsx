@@ -12,9 +12,6 @@ const Portfolio = () => {
                     heading={"My Portfolio"}
                 ></SectionTitle>
             </div>
-            <div>
-
-            </div>
             <div className="my-8">
                 <div className="grid lg:grid-cols-3 gap-8">
                     {
@@ -28,9 +25,15 @@ const Portfolio = () => {
                                 </div>
                                 <div>
                                     <div className="flex justify-between p-3 font-semibold">
-                                        <p>Client side</p>
-                                        <p>Live</p>
-                                        <p>Server side</p>
+                                        <a target="blank"
+                                            className="offset pLinkBtn"
+                                            href={singlePortfolio.clientSide}>Client side</a>
+                                        <a target="blank"
+                                            className="offset pLinkBtn"
+                                            href={singlePortfolio.live}>Live</a>
+                                        <a target="blank"
+                                            className="offset pLinkBtn"
+                                            href={singlePortfolio.serverSide}>Server side</a>
                                     </div>
                                     <h3 className="text-2xl font-bold text-myRed">{singlePortfolio.name}</h3>
                                     <button className="custom-btn btn-3"><span>Read More</span></button>
