@@ -1,7 +1,6 @@
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import SectionTitle from '../components/SectionTitle';
-import image from '../assets/contact.png'
 import image2 from '../assets/contact2.svg'
 const Contact = () => {
 
