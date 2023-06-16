@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div className="pt-28">
+        <div id="home" className="pt-28">
             <div className="container mx-auto">
                 <div className="grid lg:grid-cols-2 grid-cols-1">
                     <div className="mt-16">
@@ -32,9 +32,9 @@ const Banner = () => {
                         <div className="my-10">
                             <p>Find me with</p>
                             <div className="flex space-x-5 text-2xl text-myRed my-5">
-                                <p className="myBtnShadow iconBtn rounded-full"><FaGithub /></p>
-                                <p className="myBtnShadow iconBtn rounded-full"><FaLinkedinIn /></p>
-                                <p className="myBtnShadow iconBtn rounded-full"><FaFacebook /></p>
+                                <a target="blank" href="https://github.com/shiningsudipto" className="myBtnShadow iconBtn rounded-full"><FaGithub /></a>
+                                <a target="blank" href="https://www.linkedin.com/in/shining-sudipto/" className="myBtnShadow iconBtn rounded-full"><FaLinkedinIn /></a>
+                                <a target="blank" href="https://www.facebook.com/shiningsudipto" className="myBtnShadow iconBtn rounded-full"><FaFacebook /></a>
                             </div>
                         </div>
                     </div>

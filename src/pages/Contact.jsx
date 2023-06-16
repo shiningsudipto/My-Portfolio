@@ -23,7 +23,7 @@ const Contact = () => {
     };
 
     return (
-        <div>
+        <div id='contact'>
             <div>
                 <SectionTitle
                     subHeading={"contact with me"}

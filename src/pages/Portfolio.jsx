@@ -5,7 +5,7 @@ const Portfolio = () => {
     const [portfolio] = usePortfolio();
     console.log("Portfolio", portfolio);
     return (
-        <div>
+        <div id="portfolio">
             <div>
                 <SectionTitle
                     subHeading={"VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"}
@@ -13,18 +13,18 @@ const Portfolio = () => {
                 ></SectionTitle>
             </div>
             <div className="my-8">
-                <div className="grid lg:grid-cols-3 gap-8">
+                <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
                     {
                         portfolio.map((singlePortfolio, index) =>
                             <div key={index}
-                                className="p-3 rounded-xl myBtnShadow border border-transparent hover:border hover:border-myRed">
+                                className="p-4 rounded-xl myBtnShadow border border-transparent hover:border hover:border-myRed">
                                 <div className="">
                                     <img src={singlePortfolio.image}
-                                        className="h-80 rounded-xl"
+                                        className=" rounded-xl"
                                         alt="" />
                                 </div>
                                 <div>
-                                    <div className="flex justify-between p-3 font-semibold">
+                                    <div className="flex justify-between p-3 font-semibold mt-2">
                                         <a target="blank"
                                             className="offset pLinkBtn"
                                             href={singlePortfolio.clientSide}>Client side</a>
@@ -32,11 +32,14 @@ const Portfolio = () => {
                                             className="offset pLinkBtn"
                                             href={singlePortfolio.live}>Live</a>
                                         <a target="blank"
-                                            className="offset pLinkBtn"
+                                            className="offset pLinkBtn me-1"
                                             href={singlePortfolio.serverSide}>Server side</a>
                                     </div>
-                                    <h3 className="text-2xl font-bold text-myRed">{singlePortfolio.name}</h3>
-                                    <button className="custom-btn btn-3"><span>Read More</span></button>
+                                    <div className="flex justify-between items-center p-3">
+                                        <h3 className="text-3xl font-bold text-myRed my-3">{singlePortfolio.name}</h3>
+                                        <button className="custom-btn btn-3 absolute"><span>Read More </span></button>
+                                    </div>
+
                                 </div>
                             </div>)
                     }

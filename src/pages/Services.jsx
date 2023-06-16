@@ -4,7 +4,7 @@ const Services = () => {
     const [services] = useServices();
     console.log("Services", services);
     return (
-        <div>
+        <div id="services">
             <div>
                 <div className="my-10">
                     <div className='flex items-center'>

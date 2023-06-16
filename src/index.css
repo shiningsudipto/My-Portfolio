@@ -6,6 +6,25 @@
     @apply bg-myRed rounded-sm font-semibold text-base
 }
 
+.active {
+    background-color: #CA0945;
+    color: #ffff;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+.navLinks:hover {
+    background-color: #CA0945;
+    color: #ffff;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+.navLinks {
+    padding: 10px 15px;
+    font-weight: 600;
+}
+
 .myBtn {
     padding: 10px 15px;
     background-color: #212428;
@@ -307,12 +326,13 @@ Section Title
     &:hover,
     &:focus {
         border-color: var(--hover);
-        color: #fff;
+        color: #e9e9e9;
     }
 }
 
 .offset {
     box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+    font-weight: 800;
 }
 
 .offset:hover,

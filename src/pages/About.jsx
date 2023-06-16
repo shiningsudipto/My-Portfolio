@@ -4,7 +4,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 
 const About = () => {
     return (
-        <div>
+        <div id="about">
             <div>
                 <SectionTitle
                     subHeading={"About me and my skill"}

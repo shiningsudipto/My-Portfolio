@@ -1,12 +1,43 @@
+import { Link } from "react-scroll";
+import resume from '../../../public/Resume of Sudipta Das.pdf'
 
 
 const Navbar = () => {
     const navLinks = <>
-        <li className="border border-1 border-myRed px-3 py-2 font-semibold hover:bg-myRed hover:rounded-sm">Home</li>
-        <li className="border border-1 border-myRed px-3 py-2 font-semibold hover:bg-myRed hover:rounded-sm">Portfolio</li>
-        <li className="border border-1 border-myRed px-3 py-2 font-semibold hover:bg-myRed hover:rounded-sm">Resume</li>
-        <li className="border border-1 border-myRed px-3 py-2 font-semibold hover:bg-myRed hover:rounded-sm">Services</li>
-        <li className="border border-1 border-myRed px-3 py-2 font-semibold hover:bg-myRed hover:rounded-sm">Services</li>
+        <Link
+            activeClass="active"
+            className="navLinks"
+            spy={true}
+            smooth={true}
+            to="home">Home</Link>
+        <Link
+            activeClass="active"
+            className="navLinks"
+            spy={true}
+            smooth={true}
+            offset={-30}
+            to="services">Services</Link>
+        <Link
+            activeClass="active"
+            className="navLinks"
+            spy={true}
+            smooth={true}
+            offset={-30}
+            to="portfolio">Portfolio</Link>
+        <Link
+            activeClass="active"
+            className="navLinks"
+            spy={true}
+            smooth={true}
+            offset={-30}
+            to="about">About</Link>
+        <Link
+            activeClass="active"
+            className="navLinks"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            to="contact">Contact</Link>
     </>
     return (
         <div>
@@ -32,7 +63,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="myBtn myBtnShadow">Send Message</a>
+                    <a className="myBtn myBtnShadow" href={resume} download="resume of Sudipta Das">Download Resume</a>
                 </div>
             </div>
         </div>
