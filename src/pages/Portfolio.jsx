@@ -17,7 +17,7 @@ const Portfolio = () => {
                     {
                         portfolio.map((singlePortfolio, index) =>
                             <div key={index}
-                                className="p-4 rounded-xl myBtnShadow border border-transparent hover:border hover:border-myRed">
+                                className="p-4 rounded-xl myBtnShadow border border-transparent hover:border hover:border-myGreen">
                                 <div className="">
                                     <img src={singlePortfolio.image}
                                         className=" rounded-xl"
@@ -36,7 +36,7 @@ const Portfolio = () => {
                                             href={singlePortfolio.serverSide}>Server side</a>
                                     </div>
                                     <div className="flex justify-between items-center p-3">
-                                        <h3 className="text-3xl font-bold text-myRed my-3">{singlePortfolio.name}</h3>
+                                        <h3 className="lg:text-4xl text-2xl font-bold text-myGreen my-3">{singlePortfolio.name}</h3>
                                         <button className="custom-btn btn-3 absolute"><span>Read More </span></button>
                                     </div>
 

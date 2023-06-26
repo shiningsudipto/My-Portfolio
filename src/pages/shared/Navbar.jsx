@@ -54,7 +54,7 @@ const Navbar = () => {
                     <div className="flex items-center space-x-4">
                         <img
                             className="border border-1 border-myRed rounded-full" src="" alt="" />
-                        <h2 className="text-xl font-bold text-white ">Sudipta Das</h2>
+                        <h2 className="lg:text-4xl sm:text2xl font-bold">Sudipta <span className="">Das</span></h2>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -63,7 +63,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="myBtn myBtnShadow" href={resume} download="resume of Sudipta Das">Download Resume</a>
+                    <a className="myBtn myBtnShadow md:block hidden" href={resume} download="resume of Sudipta Das">Download Resume</a>
                 </div>
             </div>
         </div>

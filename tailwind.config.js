@@ -7,7 +7,10 @@ export default {
     extend: {
       colors: {
         myBlack: '#212428',
-        myRed: '#CA0945'
+        myRed: '#CA0945',
+        myGreen: '#1ae200',
+        myOrange: '#bc511b',
+        mySkyBlue: '#15B4CC'
       },
     },
   },

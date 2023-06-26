@@ -11,9 +11,9 @@ const About = () => {
                     heading={"About"}
                 ></SectionTitle>
             </div>
-            <div>
-                <div className="flex justify-between lg:flex-row flex-col-reverse items-center">
-                    <div className="space-y-1 me-6 text-[18px]">
+            <div className="container mx-auto">
+                <div className="flex justify-between lg:flex-row flex-col-reverse items-center lg:px-0 px-3">
+                    <div className="space-y- me-6 text-[18px]">
                         <p>
                             Hey there! <br /> My name is <span className="font-semibold">Sudipta Das</span>, and I'm thrilled to welcome you to my portfolio website. As a non-CS student, I've found my true passion in programming, and I absolutely love it. I consider myself a fast learner and have been honing my skills as a junior MERN stack developer.</p>
                         <p>One thing that sets me apart is my knowledge of graphic design, particularly in Adobe Photoshop and Illustrator. I believe that combining technical expertise with a touch of artistry can result in truly remarkable projects. So, you can expect my work to be visually appealing and thoughtfully designed.</p>
@@ -22,12 +22,12 @@ const About = () => {
                         <p>I invite you to explore my portfolio website, where you'll find a showcase of my projects, a glimpse into my graphic design abilities, and a testament to my dedication to personal and professional growth. Thank you for stopping by, and I hope you enjoy your time here!</p>
                     </div>
                     <div>
-                        <img src={image} className="rounded-xl myBtnShadow" alt="" />
+                        <img src={image} className="rounded-xl myBtnShadow lg:mb-0 mb-8" alt="" />
                     </div>
                 </div>
             </div>
 
-            <div>
+            {/* <div>
                 <div>
                     <h3 className="text-2xl font-semibold uppercase mt-6 mb-4">skill set:</h3>
                     <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-6">
@@ -153,7 +153,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

@@ -1,0 +1,74 @@
+[
+    {
+        "name": "HTML",
+        "image": "https://i.ibb.co/YjqNmZL/html.png"
+    },
+    {
+        "name": "CSS",
+        "image": "https://i.ibb.co/SX276G7/css.png"
+    },
+    {
+        "name": "Bootstrap",
+        "image": "https://i.ibb.co/jwqTzDd/bootstrap.png"
+    },
+    {
+        "name": "Tailwind CSS",
+        "image": "https://i.ibb.co/mbC2t6w/tailwind.png"
+    },
+    {
+        "name": "JavaScript",
+        "image": "https://i.ibb.co/Z8vpXzB/js.png"
+    },
+    {
+        "name": "Git",
+        "image": "https://i.ibb.co/V3Sdqt8/git.png"
+    },
+    {
+        "name": "GitHub",
+        "image": "https://i.ibb.co/RPfXW1z/github-icon.png"
+    },
+    {
+        "name": "React.js",
+        "image": "https://i.ibb.co/c19VQky/react.png"
+    },
+    {
+        "name": "Node.js",
+        "image": "https://i.ibb.co/R6TQ7nR/node.png"
+    },
+    {
+        "name": "Express.js",
+        "image": "https://i.ibb.co/80YCHX7/expressjs.png"
+    },
+    {
+        "name": "MongoDB",
+        "image": "https://i.ibb.co/h2fXhpg/mongo-db.png"
+    },
+    {
+        "name": "Firebase",
+        "image": "https://i.ibb.co/frdCz7M/firebase.png"
+    },
+    {
+        "name": "Next.js",
+        "image": "https://i.ibb.co/qCKCSLq/nextjs.png"
+    },
+    {
+        "name": "Redux",
+        "image": "https://i.ibb.co/vcHW0WY/redux.png"
+    },
+    {
+        "name": "JWT",
+        "image": "https://i.ibb.co/t2DSkMg/jwt.png"
+    },
+    {
+        "name": "REST API",
+        "image": "https://i.ibb.co/b5bJ3yb/Rest-API-1.png"
+    },
+    {
+        "name": "Figma",
+        "image": "https://i.ibb.co/hWLqygn/figma.png"
+    },
+    {
+        "name": "Photoshop",
+        "image": "https://i.ibb.co/rkgPY81/psd.png"
+    }
+]
