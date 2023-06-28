@@ -13,16 +13,16 @@ const About = () => {
             </div>
             <div className="container mx-auto">
                 <div className="flex justify-between lg:flex-row flex-col-reverse items-center lg:px-0 px-3">
-                    <div className="space-y- me-6 text-[18px]">
+                    <div className="space-y-3 lg:me-6 text-[18px] text-justify">
                         <p>
-                            Hey there! <br /> My name is <span className="font-semibold">Sudipta Das</span>, and I'm thrilled to welcome you to my portfolio website. As a non-CS student, I've found my true passion in programming, and I absolutely love it. I consider myself a fast learner and have been honing my skills as a junior MERN stack developer.</p>
+                            Hey there! <br /> My name is <span className="font-semibold">Sudipta Das</span>, and I'm thrilled to welcome you to my portfolio website. As a non-CSE student, I've found my true passion in programming, and I absolutely love it. I consider myself a fast learner and have been honing my skills as a junior MERN stack developer.</p>
                         <p>One thing that sets me apart is my knowledge of graphic design, particularly in Adobe Photoshop and Illustrator. I believe that combining technical expertise with a touch of artistry can result in truly remarkable projects. So, you can expect my work to be visually appealing and thoughtfully designed.</p>
                         <p>For me, programming is not just a job; it's a journey of constant exploration. I have an insatiable curiosity when it comes to new technologies and emerging trends. I'm always excited to dive into unfamiliar territories and embrace the challenges that come with them.</p>
                         <p>My ultimate goal is to build a successful career in programming, leveraging my MERN stack skills and continuously pushing myself to grow. I believe that learning is a lifelong process, and I'm committed to expanding my knowledge and staying up-to-date with the latest advancements in the field.</p>
                         <p>I invite you to explore my portfolio website, where you'll find a showcase of my projects, a glimpse into my graphic design abilities, and a testament to my dedication to personal and professional growth. Thank you for stopping by, and I hope you enjoy your time here!</p>
                     </div>
                     <div>
-                        <img src={image} className="rounded-xl myBtnShadow lg:mb-0 mb-8" alt="" />
+                        <img src={image} className="rounded-xl myBtnShadow mb-8" alt="" />
                     </div>
                 </div>
             </div>

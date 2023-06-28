@@ -10,7 +10,8 @@ export default {
         myRed: '#CA0945',
         myGreen: '#1ae200',
         myOrange: '#bc511b',
-        mySkyBlue: '#15B4CC'
+        mySkyBlue: '#15B4CC',
+        background1: '#000b1a'
       },
     },
   },

@@ -41,7 +41,7 @@ const Navbar = () => {
     </>
     return (
         <div>
-            <div className="navbar bg-myBlack text-white bg-opacity-50 backdrop-blur backdrop-blur-md fixed z-10 shadow-md">
+            <div className="navbar bg-background1 text-white bg-opacity-50 backdrop-blur backdrop-blur-md fixed z-10 shadow-md">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -54,7 +54,7 @@ const Navbar = () => {
                     <div className="flex items-center space-x-4">
                         <img
                             className="border border-1 border-myRed rounded-full" src="" alt="" />
-                        <h2 className="lg:text-4xl sm:text2xl font-bold">Sudipta <span className="">Das</span></h2>
+                        <h2 className="lg:text-4xl sm:text-3xl font-bold">Sudipta <span className="">Das</span></h2>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">

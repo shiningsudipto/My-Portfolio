@@ -12,7 +12,7 @@ const Banner = () => {
                         <h3 className="uppercase tracking-widest">welcome to my world.</h3>
                         <img src="" alt="" />
                         <h2 className="lg:text-6xl text-4xl font-bold">Hi, I'm <span className="text-myGreen">Sudipta Das</span></h2>
-                        <div className="text-sm lg:text-2xl text-myGreen font-bold lg:mt-6 mt-2 mb-4">
+                        <div className="text-sm lg:text-2xl text-myOrange font-bold lg:mt-6 mt-2 mb-4">
                             <TypeAnimation
                                 sequence={[
                                     'a Web Developer.',
