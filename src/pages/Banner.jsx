@@ -2,6 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import resume from '../../public/Resume of Sudipta Das.pdf'
 import myImg2 from '../assets/myImg-Sudipto.png'
+import Socials from "../components/Socials";
 
 const Banner = () => {
     return (
@@ -32,13 +33,7 @@ const Banner = () => {
                         </div>
                         <h3 className="text-xl lg:w-2/3 w-full">MERN stack enthusiast, blending creativity and code to build scalable web apps. Seeking exciting projects to make a lasting impact.</h3>
                         <div className="lg:my-10 mt-4 mb-14">
-                            <p>Find me with</p>
-                            <div className="flex space-x-5 text-2xl text-myGreen my-5">
-                                <a target="blank" href="https://github.com/shiningsudipto" className="myBtnShadow iconBtn rounded-full"><FaGithub /></a>
-                                <a target="blank" href="https://www.linkedin.com/in/shining-sudipto/" className="myBtnShadow iconBtn rounded-full"><FaLinkedinIn /></a>
-                                <a target="blank" href="https://www.facebook.com/shiningsudipto" className="myBtnShadow iconBtn rounded-full"><FaFacebook /></a>
-
-                            </div>
+                            <Socials />
                             <div className="my-8">
                                 <a className="myBtn myBtnShadow md:hidden" href={resume} download="resume of Sudipta Das">Download Resume</a>
 

@@ -1,8 +1,11 @@
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import SectionTitle from '../components/SectionTitle';
-import image2 from '../assets/contact3.svg'
-
+import Lottie from 'react-lottie-player'
+import contact from '../assets/contact.json'
+import Socials from '../components/Socials';
+import { FaWhatsapp, } from "react-icons/fa";
+import { HiOutlineMailOpen, HiOutlinePhone, HiOutlineLocationMarker } from "react-icons/hi";
 
 const Contact = () => {
 
@@ -32,27 +35,43 @@ const Contact = () => {
                     heading={"Contact"}
                 ></SectionTitle>
             </div>
-            <div className='grid lg:grid-cols-2 grid-cols-1 gap-8'>
+            <div className='grid lg:grid-cols-3 grid-cols-1 gap-4'>
                 <div>
-                    <img src={image2} alt="" />
+                    <div className='text-lg'>
+                        <p className='inline-flex items-center'><FaWhatsapp className='text-myGreen text-4xl me-4 my-1 bg-myDeepPurple hover:bg-myPurple rounded-full p-1' /> +880 1758579417</p>
+                        <br />
+                        <p className='inline-flex items-center'><HiOutlinePhone className='text-myGreen text-4xl me-4 my-1 bg-myDeepPurple hover:bg-myPurple rounded-full p-1' />  +880 1758579417</p>
+                        <p className='inline-flex items-center'><HiOutlineMailOpen className='text-myGreen text-4xl me-4 my-1 bg-myDeepPurple hover:bg-myPurple rounded-full p-1' /> sudiptadasdev@gmail.com</p>
+                        <p className='inline-flex items-center'><HiOutlineLocationMarker className='text-myGreen text-4xl me-4 my-1 bg-myDeepPurple hover:bg-myPurple rounded-full p-1' /> Barishal, Bangladesh</p>
+                    </div>
+                    <div className='divider'></div>
+                    <Socials />
+                </div>
+                <div>
+                    <div>
+                        <Lottie
+                            loop
+                            animationData={contact}
+                            play
+                            className='h-96'
+                        />
+                    </div>
                 </div>
                 <div>
                     <form ref={form} onSubmit={sendEmail} className='px-3'>
-                        <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
-                            <div>
-                                <label className="label">Name:-</label>
-                                <input type="text" name="name" required
-                                    placeholder='your name'
-                                    className="input bg-transparent input-bordered border border-myPurple w-full"
-                                />
-                            </div>
-                            <div>
-                                <label className="label">Email:-</label>
-                                <input type="email" name="email" required
-                                    placeholder='your email'
-                                    className="input bg-transparent input-bordered border border-myPurple w-full"
-                                />
-                            </div>
+                        <div>
+                            <label className="label">Name:-</label>
+                            <input type="text" name="name" required
+                                placeholder='your name'
+                                className="input bg-transparent input-bordered border border-myPurple w-full"
+                            />
+                        </div>
+                        <div>
+                            <label className="label">Email:-</label>
+                            <input type="email" name="email" required
+                                placeholder='your email'
+                                className="input bg-transparent input-bordered border border-myPurple w-full"
+                            />
                             <div className='lg:col-span-2'>
                                 <label className="label">Message:-</label>
                                 <textarea name="message" required
