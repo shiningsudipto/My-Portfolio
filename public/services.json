@@ -1,32 +1,52 @@
 [
     {
-        "name": "Full-stack development",
-        "icon": "service1.png",
-        "description": "End-to-end development for web applications."
+        "name": "Application Development",
+        "icon": "../public/Logo/software.png",
+        "description": "MERN stack web app development"
     },
     {
-        "name": "RESTful API development",
-        "icon": "service2.png",
-        "description": "Building robust and scalable APIs."
+        "name": "Front-end Development",
+        "icon": "../public/Logo/web-design.png",
+        "description": "React.js UI development"
     },
     {
-        "name": "Single-page application (SPA)",
-        "icon": "service3.png",
-        "description": "Creating interactive and efficient SPAs."
+        "name": "Back-end Development",
+        "icon": "../public/Logo/hosting.png",
+        "description": "Node.js server-side development"
     },
     {
-        "name": "User authentication and authorization",
-        "icon": "service4.png",
-        "description": "Implementing secure user authentication and authorization mechanisms."
+        "name": "API Development",
+        "icon": "../public/Logo/api.png",
+        "description": "Express.js API creation"
     },
     {
-        "name": "Testing and debugging",
-        "icon": "service5.png",
-        "description": "Ensuring high-quality through comprehensive testing and debugging."
+        "name": "Version Control",
+        "icon": "../public/Logo/vccc.png",
+        "description": "Git code versioning"
     },
     {
-        "name": "Continuous integration and deployment (CI/CD)",
-        "icon": "service6.png",
-        "description": "Automating the build, test, and deployment processes."
+        "name": "User Authentication",
+        "icon": "../public/Logo/security-scan.png",
+        "description": "Secure user authentication"
+    },
+    {
+        "name": "Figma/PSD to React.js",
+        "icon": "../public/Logo/translate.png",
+        "description": "Convert designs to React.js"
+    },
+    {
+        "name": "SEO Optimized",
+        "icon": "../public/Logo/seo.png",
+        "description": "Optimize for search engines"
+    },
+    {
+        "name": "Bug Fixing",
+        "icon": "../public/Logo/bug.png",
+        "description": "Resolve application issues"
+    },
+    {
+        "name": "Fix Responsive Issues",
+        "icon": "../public/Logo/header.png",
+        "description": "Address responsive problems"
     }
 ]

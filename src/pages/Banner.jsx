@@ -12,7 +12,7 @@ const Banner = () => {
                         <h3 className="uppercase tracking-widest">welcome to my world.</h3>
                         <img src="" alt="" />
                         <h2 className="lg:text-6xl text-4xl font-bold">Hi, I'm <span className="text-myGreen">Sudipta Das</span></h2>
-                        <div className="text-sm lg:text-2xl text-myOrange font-bold lg:mt-6 mt-2 mb-4">
+                        <div className="text-sm lg:text-2xl text-[#9043E2] font-bold lg:mt-6 mt-2 mb-4">
                             <TypeAnimation
                                 sequence={[
                                     'a Web Developer.',
@@ -48,7 +48,7 @@ const Banner = () => {
                     <div>
                         <div className="flex lg:justify-end justify-center">
                             <div className="flex flex-col items-center rounded-md  w-3/5 mt-4 ">
-                                <img className="rounded-md w-full myBtnShadow  border-2 border-myOrange " src={myImg2} alt="" />
+                                <img className="rounded-md w-full myBtnShadow  border-2 border-[#9043E2] " src={myImg2} alt="" />
                                 <img className="lg:h-16 h-12 floatingImage reactFloating lg:mt-[-450px] lg:ms-[-270px] mt-[-315px] ms-[-230px]" src="https://i.ibb.co/c19VQky/react.png" alt="" />
                                 <img className="lg:h-16 h-12 floatingImage nodeFloating lg:mt-[120px] lg:ms-[250px] mt-[100px] ms-[150px]" src="https://i.ibb.co/R6TQ7nR/node.png" alt="" />
                                 <img className="lg:h-16 h-12 floatingImage mongoDBFloating lg:mt-[80px] lg:ms-[-380px] mt-[90px] ms-[-235px]" src="https://i.ibb.co/h2fXhpg/mongo-db.png" alt="" />

@@ -43,26 +43,26 @@ const Contact = () => {
                                 <label className="label">Name:-</label>
                                 <input type="text" name="name" required
                                     placeholder='your name'
-                                    className="input bg-transparent input-bordered border border-myOrange w-full"
+                                    className="input bg-transparent input-bordered border border-myPurple w-full"
                                 />
                             </div>
                             <div>
                                 <label className="label">Email:-</label>
                                 <input type="email" name="email" required
                                     placeholder='your email'
-                                    className="input bg-transparent input-bordered border border-myOrange w-full"
+                                    className="input bg-transparent input-bordered border border-myPurple w-full"
                                 />
                             </div>
                             <div className='lg:col-span-2'>
                                 <label className="label">Message:-</label>
                                 <textarea name="message" required
                                     placeholder='your message here'
-                                    className="textarea bg-transparent textarea-bordered textarea-sm w-full border border-myOrange" />
+                                    className="textarea bg-transparent textarea-bordered textarea-sm w-full border border-myPurple" />
                                 <br />
                             </div>
                         </div>
                         <input type="submit" value="Send"
-                            className='myBtn bg-transparent shadow-md border border-myOrange rounded-md w-full mt-3'
+                            className='myBtn bg-transparent shadow-md border border-myPurple rounded-md w-full mt-3'
                         />
                     </form>
                 </div>

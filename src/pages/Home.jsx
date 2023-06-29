@@ -1,6 +1,7 @@
 import About from "./About";
 import Banner from "./Banner";
 import Contact from "./Contact";
+import MyServices from "./MyServices";
 import Portfolio from "./Portfolio";
 import Services from "./Services";
 import SkillSlider from "./SkillSlider";
@@ -10,7 +11,8 @@ const Home = () => {
     return (
         <div className="container mx-auto">
             <Banner />
-            <Services />
+            <MyServices />
+            {/* <Services /> */}
             <Portfolio />
             <About />
             {/* <Skills /> */}

@@ -1,9 +1,15 @@
+import { useState } from "react";
+import Modal from "../components/Modal";
 import SectionTitle from "../components/SectionTitle";
 import usePortfolio from "../hook/usePortfolio";
 
 const Portfolio = () => {
     const [portfolio] = usePortfolio();
     console.log("Portfolio", portfolio);
+    const [portfolioInfo, setPortfolioInfo] = useState([])
+    // const handleModal=()=>{
+
+    // }
     return (
         <div id="portfolio">
             <div>
@@ -36,15 +42,17 @@ const Portfolio = () => {
                                             href={singlePortfolio.serverSide}>Server side</a>
                                     </div>
                                     <div className="flex justify-between items-center p-3">
-                                        <h3 className="lg:text-4xl text-2xl font-bold text-myGreen my-3">{singlePortfolio.name}</h3>
-                                        <button className="custom-btn btn-3 absolute"><span>Read More </span></button>
-                                    </div>
+                                        <h3 className="lg:text-4xl text-2xl font-bold my-3">{singlePortfolio.name}</h3>
 
+                                        <label onClick={() => setPortfolioInfo(singlePortfolio)} htmlFor="my_modal_6" className="readBtn"><span>Read More </span></label>
+
+                                    </div>
                                 </div>
                             </div>)
                     }
                 </div>
             </div>
+            <Modal portfolioInfo={portfolioInfo} />
         </div>
     );
 };
