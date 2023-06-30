@@ -19,11 +19,11 @@ const Portfolio = () => {
                 ></SectionTitle>
             </div>
             <div className="my-8">
-                <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
+                <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 px-3">
                     {
                         portfolio.map((singlePortfolio, index) =>
                             <div key={index}
-                                className="p-4 rounded-xl myBtnShadow border border-transparent hover:border hover:border-myGreen">
+                                className="p-4 rounded-xl bg-slate-700/30 myBtnShadow border border-transparent hover:border hover:border-myGreen">
                                 <div className="">
                                     <img src={singlePortfolio.image}
                                         className=" rounded-xl"

@@ -2,6 +2,7 @@
     {
         "name": "MEGAPIXEL",
         "image": "https://i.ibb.co/KWNsQmj/megapixel-3-2ratio.png",
+        "fullImage": "https://i.ibb.co/FXM4rvt/megapixel.png",
         "technologyUsed": [
             "React JS",
             "Node JS",
@@ -24,6 +25,7 @@
     {
         "name": "SUPER TOYS",
         "image": "https://i.ibb.co/FKSGXnH/super-toys-3-2.png",
+        "fullImage": "https://i.ibb.co/GfD0B9P/Super-Toys.png",
         "technologyUsed": [
             "React JS",
             "Node JS",
@@ -31,7 +33,6 @@
             "MongoDB"
         ],
         "tools": [
-            "PyCharm",
             "GitHub"
         ],
         "description": "This is a full-stack website. This website is based on Action Toys like Avengers, DC Comics, and Transformers. Here people will get real information about added toys by clicking the view details button. If the user wants to see details then he/she must be logged in. User can register with email and password and also log in with Google. After logging in user will see 2 more menus Add a Toy and My Toys. User can add toys from Add A Toy page. User can see their added toys from the My Toys page. From the My Toys page user cat update and also can delete his/her added toys.",
@@ -43,11 +44,11 @@
     {
         "name": "DREAM FOOD",
         "image": "https://i.ibb.co/F0mPN4B/Dream-Food-3-2.png",
+        "fullImage": "https://i.ibb.co/DVdYXDb/Dream-Food.png",
         "technologyUsed": [
             "React JS"
         ],
         "tools": [
-            "PyCharm",
             "GitHub"
         ],
         "description": "This website based for food recipes of America. Here you will get top best chef of all time in America and their bio. There is 18 popular food recipe of there. This website built with . It's a JavaScript popular library. I added authentication system with firebase. If anyone want to see recipes of chef by clicking 'view recipe' then he/she will see the details of that chef and at least 3 recipe. If a visitor without logged in want to see recipes he/she will redirect to the login page. After log in or if he don't have any account also can create one. People can choose recipe of chef to see their popularity.",

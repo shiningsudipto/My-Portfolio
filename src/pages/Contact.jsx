@@ -36,7 +36,7 @@ const Contact = () => {
                 ></SectionTitle>
             </div>
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-4'>
-                <div>
+                <div className='px-3 lg:px-0'>
                     <div className='text-lg'>
                         <p className='inline-flex items-center'><FaWhatsapp className='text-myGreen text-4xl me-4 my-1 bg-myDeepPurple hover:bg-myPurple rounded-full p-1' /> +880 1758579417</p>
                         <br />

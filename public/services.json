@@ -1,52 +1,52 @@
 [
     {
         "name": "Application Development",
-        "icon": "../public/Logo/software.png",
+        "icon": "https://i.ibb.co/RSm4dyH/software.png",
         "description": "MERN stack web app development"
     },
     {
         "name": "Front-end Development",
-        "icon": "../public/Logo/web-design.png",
+        "icon": "https://i.ibb.co/DrRZsR6/web-design.png",
         "description": "React.js UI development"
     },
     {
         "name": "Back-end Development",
-        "icon": "../public/Logo/hosting.png",
+        "icon": "https://i.ibb.co/YZps46K/hosting.png",
         "description": "Node.js server-side development"
     },
     {
         "name": "API Development",
-        "icon": "../public/Logo/api.png",
+        "icon": "https://i.ibb.co/khSwqpf/api.png",
         "description": "Express.js API creation"
     },
     {
         "name": "Version Control",
-        "icon": "../public/Logo/vccc.png",
+        "icon": "https://i.ibb.co/K5ykxCD/vccc.png",
         "description": "Git code versioning"
     },
     {
         "name": "User Authentication",
-        "icon": "../public/Logo/security-scan.png",
+        "icon": "https://i.ibb.co/5T70ZJn/security-scan.png",
         "description": "Secure user authentication"
     },
     {
         "name": "Figma/PSD to React.js",
-        "icon": "../public/Logo/translate.png",
+        "icon": "https://i.ibb.co/1JhS24b/translate.png",
         "description": "Convert designs to React.js"
     },
     {
         "name": "SEO Optimized",
-        "icon": "../public/Logo/seo.png",
+        "icon": "https://i.ibb.co/bgGXdvt/seo.png",
         "description": "Optimize for search engines"
     },
     {
         "name": "Bug Fixing",
-        "icon": "../public/Logo/bug.png",
+        "icon": "https://i.ibb.co/ydNNX3t/bug.png",
         "description": "Resolve application issues"
     },
     {
         "name": "Fix Responsive Issues",
-        "icon": "../public/Logo/header.png",
+        "icon": "https://i.ibb.co/q1XtgLV/header.png",
         "description": "Address responsive problems"
     }
 ]

@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 /*
  heading, btn hover+BG Color: #14A800
@@ -12,10 +14,8 @@
 
 body {
     color: #eeeeee;
-    background-color: #000b1a;
-    /* background-color: rgba(159, 47, 255, 1); */
-/* background-color: #9f2fff; */
-/* 9043E2 */
+    background-color: #000b1ab6;
+ font-family: 'Jost', sans-serif;
 }
 
 .navBtn {
@@ -28,6 +28,14 @@ body {
     font-weight: 600;
     padding: 10px 15px;
 }
+.navLinks {
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
 .readBtn{
     background-color: #43008A;
     padding: 10px 15px; 
@@ -43,14 +51,6 @@ body {
     color: #ffff;
     font-weight: 600;
     padding: 10px 15px;
-}
-
-.navLinks {
-    padding: 10px 15px;
-    font-weight: 600;
-    font-size: 16px;
-    border-radius: 3px;
-    transition: 0.3s;
 }
 
 .myBtn {
@@ -69,13 +69,13 @@ body {
     cursor: pointer;
 }
 
-.myBtnShadow {
+/* .myBtnShadow {
     box-shadow: -5px -5px 10px #c2c2c225,
         10px 10px 30px #00000083,
         inset -10px -10px 20px -5px #00ff1500,
         inset 10px 10px 10px -5px #004cff00;
     transition: transform 0.2s ease-in-out;
-}
+} */
 
 .myBtn:hover,
 .iconBtn:hover {
@@ -87,7 +87,12 @@ body {
 /* 
 Services Card
 */
-
+.serviceCard img {
+    transition: transform 0.3s ease; /* Add transition property */
+  }
+.serviceCard:hover img{
+    transform: scale(1.2);
+}
 /*
 Section Title
 */
@@ -162,3 +167,20 @@ Section Title
     }
   }
   
+  /* Modal */
+  .image-wrap {
+    /* width: 2000px !important; */
+    height: 400px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: all 3s ease-in-out;
+}
+.image-wrap:hover img {
+    object-position: bottom center;
+}

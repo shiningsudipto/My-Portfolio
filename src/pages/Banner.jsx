@@ -42,7 +42,7 @@ const Banner = () => {
                     </div>
                     <div>
                         <div className="flex lg:justify-end justify-center">
-                            <div className="flex flex-col items-center rounded-md  w-3/5 mt-4 ">
+                            <div className="flex flex-col items-center rounded-md lg:w-3/5 w-[235px] mt-4 ">
                                 <img className="rounded-md w-full myBtnShadow  border-2 border-[#9043E2] " src={myImg2} alt="" />
                                 <img className="lg:h-16 h-12 floatingImage reactFloating lg:mt-[-450px] lg:ms-[-270px] mt-[-315px] ms-[-230px]" src="https://i.ibb.co/c19VQky/react.png" alt="" />
                                 <img className="lg:h-16 h-12 floatingImage nodeFloating lg:mt-[120px] lg:ms-[250px] mt-[100px] ms-[150px]" src="https://i.ibb.co/R6TQ7nR/node.png" alt="" />

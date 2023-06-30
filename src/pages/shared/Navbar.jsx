@@ -9,7 +9,9 @@ const Navbar = () => {
             className="navLinks"
             spy={true}
             smooth={true}
-            to="home">Home</Link>
+            to="home">
+            Home
+        </Link>
         <Link
             activeClass="active"
             className="navLinks"
@@ -63,7 +65,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="myBtn myBtnShadow md:block hidden" href={resume} download="resume of Sudipta Das">Download Resume</a>
+                    <a className="myBtn md:block hidden border-2 rounded-lg border-myPurple" href={resume} download="resume of Sudipta Das">Download Resume</a>
                 </div>
             </div>
         </div>

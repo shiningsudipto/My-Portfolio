@@ -15,10 +15,10 @@ const MyServices = () => {
                     <h2 className="lg:text-7xl text-4xl font-bold uppercase">what i do</h2>
                     <div className="animated-border"></div>
                 </div>
-                <div className="grid grid-cols-3 gap-10">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 px-3">
                     {
                         services.map((service, idx) => <div key={idx}
-                            className="p-6 myBtnShadow rounded-lg"
+                            className="p-6 myBtnShadow rounded-lg serviceCard bg-slate-700/30 hover:bg-slate-600/30"
                         >
                             <div>
                                 <img src={service.icon} className="h-20 mb-8" alt="" />
