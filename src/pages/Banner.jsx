@@ -3,6 +3,9 @@ import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import resume from '../../public/Resume of Sudipta Das.pdf'
 import myImg2 from '../assets/myImg-Sudipto.png'
 import Socials from "../components/Socials";
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
+
 
 const Banner = () => {
     return (
@@ -10,9 +13,13 @@ const Banner = () => {
             <div className="container mx-auto">
                 <div className="grid lg:grid-cols-2 grid-cols-1">
                     <div className="lg:mt-16 mt-0 px-3">
-                        <h3 className="uppercase tracking-widest">welcome to my world.</h3>
+                        <Fade left>
+                            <h3 className="uppercase tracking-widest">welcome to my world.</h3>
+                        </Fade>
                         <img src="" alt="" />
-                        <h2 className="lg:text-6xl text-4xl font-bold">Hi, I'm <span className="text-myGreen">Sudipta Das</span></h2>
+                        <Zoom bottom>
+                            <h2 className="lg:text-6xl text-4xl font-bold">Hi, I'm <span className="text-myGreen">Sudipta Das</span></h2>
+                        </Zoom>
                         <div className="text-sm lg:text-2xl text-[#9043E2] font-bold lg:mt-6 mt-2 mb-4">
                             <TypeAnimation
                                 sequence={[
